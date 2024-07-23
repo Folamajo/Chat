@@ -1,0 +1,114 @@
+#wrapper{
+   border: 1px dotted black;
+   max-width: 40em;
+   min-height: 40em;
+   display: flex;
+   margin: auto;
+}
+
+#left_pannel {
+   border: 1px dotted red;
+   /* min-height: 10em; */
+   flex: 1;
+   text-align: center;
+}
+
+#right_pannel {
+   border: 1px dotted blue;
+   /* min-height: 10em; */
+   flex: 4;
+   display: flex;
+   flex-direction: column;
+   
+  
+}
+
+#header {
+   border: 1px dotted blue;
+
+   flex: 1
+}
+
+
+#container{
+   border: 1px dotted black;
+   height: 100%;
+   display: flex;
+   flex: 6;
+
+}  
+
+ #inner_left_pannel{
+   border:1px dotted blue;
+   flex: 1;
+   
+}
+
+#inner_right_pannel{
+   border:1px dotted blue;
+   flex: 2;
+   
+} 
+/*when radio chat is checked perform that task to that element*/
+/* #inner_right_pannel{
+   flex: 0;
+} */
+
+
+/* Profile images */
+#left_pannel #profile-img {
+   width: 60%;
+   border-radius: 50%;
+   margin-top: 1em;
+}
+
+#labels{
+   border: 1px dotted red;
+   margin-top: 6em;
+   /* text-align:right; */
+}
+
+/* #left_pannel label{
+   width: 20%;
+   border-radius:50%;
+   display: block;
+   cursor: pointer;
+   padding: 0.6em;
+   margin-left:auto;
+   display: flex;
+   transition: all 0.2s ease;
+
+
+} */
+#left_pannel #labels ul{
+   border: 1px dotted red;
+   display: flex;
+   flex-direction: column;
+   gap: 0.8em;
+}
+
+
+#left_pannel #labels li{
+   list-style-type: none;
+   border: 1px dotted red;
+   width: 25%;
+   margin-left: auto;
+   cursor: pointer;
+   display: flex;
+}
+
+
+#labels img {
+   max-width: 100%;
+   max-height: 100%;
+
+}
+#left_pannel #labels li:hover{
+   /* background-color: #F5F5F5	; */
+   width: 30%;
+} 
+
+/* Shows the menu features */
+.showMenu{
+   border: 10px solid blue;
+}

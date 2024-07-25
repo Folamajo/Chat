@@ -1,3 +1,4 @@
+/* HOME  */
 #wrapper{
    border: 1px dotted black;
    max-width: 40em;
@@ -19,13 +20,10 @@
    flex: 4;
    display: flex;
    flex-direction: column;
-   
-  
 }
 
 #header {
    border: 1px dotted blue;
-
    flex: 1
 }
 
@@ -40,13 +38,14 @@
 
  #inner_left_pannel{
    border:1px dotted blue;
-   flex: 1;
-   
+   flex: 1; 
 }
 
 #inner_right_pannel{
    border:1px dotted blue;
    flex: 2;
+   /* background-color: red; */
+   transition: all 1s ease;
    
 } 
 /*when radio chat is checked perform that task to that element*/
@@ -109,6 +108,17 @@
 } 
 
 /* Shows the menu features */
-.showMenu{
-   border: 10px solid blue;
+/* Reudces the right inner Pannel */
+/* Over rides the current id css styles this is more specific */
+#inner_right_pannel.active{
+   flex: 0;
+}
+
+
+/* LOGIN */
+#login-wrapper, #signup-wrapper{
+   border: 1px dotted black;
+   max-width: 20em;
+   min-height: 30em;
+   margin: auto;
 }
